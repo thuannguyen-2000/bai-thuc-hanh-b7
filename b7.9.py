@@ -1,0 +1,6 @@
+file=open("abc.txt","r")
+a=file.read()
+fi=open("aaa.txt","a")
+fi.write(a)
+fi.close()
+file.close()
